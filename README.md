@@ -1,35 +1,24 @@
-# digitalmine_threejs
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
+# Digital-mine Three.js basic code
+## Features
+Develop a digital-mine visualization platform
 ## Project Setup
-
-```sh
-npm install
+### 1.  **Install node.js**
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+curl -o- [https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh (https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh) | bash    #install nvm v0.39.7
+source ~/.bashrc
+nvm -v            #check the version of nvm
+nvm install 20    #install node v20.18.2 (npm v10.8.2) 
+node -v           #check the version of node 
+npm -v            #chech the version of npm
+```
+### 2.  **download and run**
+```
+git clone git@github.com:RuoyanH/digitalmine_threejs.git
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+## Install Dependencies for MQTT
 ```
+pip install paho-mqtt==1.5.1         # for python3.8 
+``` 
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```

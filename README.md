@@ -14,6 +14,7 @@ npm -v            #chech the version of npm
 ### 2.  **download and run**
 ```
 git clone git@github.com:RuoyanH/digitalmine_threejs.git
+cd digitalmine_threejs
 npm run dev
 ```
 

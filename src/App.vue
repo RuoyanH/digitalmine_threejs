@@ -122,7 +122,7 @@ const velocity1 = 0.0001, velocity2 = 0.0001, velocity3 = 0.00012;  // 影响运
 // ***** Load MineWorld Model ***** //
 // Load .glb/.gltf model - demo map
 GLoader.load(
-  './public/MineWorld/MineDemo.gltf',
+  './public/MineWorld/NORCAT_HDMap.gltf',
   function(gltf){
     console.log('MineWorld', gltf.scene);
     gltf.scene.traverse(function (obj){
